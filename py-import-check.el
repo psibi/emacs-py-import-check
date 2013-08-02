@@ -22,7 +22,7 @@
 
 ;;; Code:
 
-(defvar import-hist nil)
+(defvar py-import-check-hist nil)
 
 (defgroup py-import-check nil
   "Run importchecker putting hits in a grep buffer."
@@ -37,7 +37,7 @@
 ;;;###autoload
 (defun py-import-check ()
   (interactive)
-  (let* ((cmd (read-shell-command "Command: " (concat py-import-check-cmd " " (file-name-nondirectory (or (buffer-file-name) ""))) 'import-hist))
+  (let* ((cmd (read-shell-command "Command: " (concat py-import-check-cmd " " (file-name-nondirectory (or (buffer-file-name) ""))) 'py-import-check-hist))
          (null-device nil))
     (grep cmd)))
 
