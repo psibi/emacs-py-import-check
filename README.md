@@ -16,7 +16,7 @@ this. This can be done simply by issuing this command:
 
 ### Usage
 
-You can invoke it through * py-import-check * function or
+You can invoke it through *py-import-check* function or
 alternatively bind it to any key bindings.
 
 ### License
