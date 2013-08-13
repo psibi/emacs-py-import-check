@@ -1,11 +1,11 @@
-# py-import-error
+# py-import-check
 
 Emacs plugin which uses importchecker to find out the unused import in
 the Python source code. It hits out the output in the grep buffer.
 
 ### Installation
 
-I have distributed it through [Melpa] (http://melpa.milkbox.net/) and [Marmalade] (http://marmalade-repo.org)
+I have distributed it through [Melpa] (http://melpa.milkbox.net/) and [Marmalade] (http://marmalade-repo.org/packages/py-import-check)
 but incase you want to install it manually, just use the
 py-import-check.el file.
 
