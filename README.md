@@ -5,12 +5,15 @@ the Python source code. It hits out the output in the grep buffer.
 
 ### Installation
 
-I have distributed it through [Melpa] (http://melpa.milkbox.net/) and [Marmalade] (http://marmalade-repo.org/packages/py-import-check)
-but incase you want to install it manually, just use the
+I have distributed it through [Melpa] (http://melpa.milkbox.net/) and
+[Marmalade] (http://marmalade-repo.org/packages/py-import-check) but
+incase you want to install it manually, just use the
 py-import-check.el file.
 
-Also note that you have to install the importchecker program for using
-this. This can be done simply by issuing this command:
+### Prerequisite software
+
+You need to install importchecker program for using the plugin. On a
+*nix based system, this can be achieved by this command:
 
     sudo pip install importchecker
 
@@ -19,10 +22,12 @@ this. This can be done simply by issuing this command:
 You can invoke it through *py-import-check* function or
 alternatively bind it to any key bindings.
 
+    M-x py-import-check
+
 ### License
 
 GNU General Public License v3
 
 ### Issues
 
-Submit any issues to here: https://github.com/psibi/emacs-py-import-check/issues
+Submit any issues here: https://github.com/psibi/emacs-py-import-check/issues
