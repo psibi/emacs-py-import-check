@@ -6,7 +6,7 @@ the Python source code. It hits out the output in the grep buffer.
 ### Installation
 
 I have distributed it through [Melpa]
-(http://melpa.milkbox.net/#/py-import-check) and [Marmalade]
+(https://melpa.org/#/py-import-check) and [Marmalade]
 (http://marmalade-repo.org/packages/py-import-check) but incase you
 want to install it manually, just use the py-import-check.el file.
 
